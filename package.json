@@ -13,8 +13,7 @@
     "express",
     "typescript",
     "scaffold",
-    "boilerplate",
-
+    "boilerplate"
   ],
   "author": "Faisal Akbar",
   "license": "MIT",
