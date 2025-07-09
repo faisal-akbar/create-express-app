@@ -1,0 +1,32 @@
+{
+  "name": "express-module-generator",
+  "version": "1.1.0",
+  "description": "Generate Express TypeScript modules with templates",
+  "main": "index.js",
+  "bin": {
+    "generate-module": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "typescript",
+    "scaffold",
+    "boilerplate",
+
+  ],
+  "author": "Faisal Akbar",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faisal-akbar/express-module-generator.git"
+  },
+  "homepage": "https://github.com/faisal-akbar/express-module-generator#readme",
+  "files": [
+    "bin/",
+    "script/",
+    "README.md"
+  ]
+}
