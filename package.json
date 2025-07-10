@@ -29,6 +29,7 @@
     "README.md"
   ],
   "dependencies": {
+    "consola": "^3.4.2",
     "inquirer": "^12.7.0"
   }
 }
