@@ -27,5 +27,8 @@
     "bin/",
     "script/",
     "README.md"
-  ]
+  ],
+  "dependencies": {
+    "inquirer": "^12.7.0"
+  }
 }

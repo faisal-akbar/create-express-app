@@ -1,0 +1,7 @@
+express
+cors
+dotenv
+zod
+http-status-codes
+jsonwebtoken
+@prisma/client

@@ -1,0 +1,9 @@
+typescript
+eslint
+@eslint/js
+typescript-eslint
+@types/cors
+@types/dotenv
+@types/express
+@types/jsonwebtoken
+ts-node-dev
