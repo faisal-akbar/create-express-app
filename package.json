@@ -1,10 +1,10 @@
 {
-  "name": "create-express-kit",
-  "version": "1.0.0",
-  "description": "Create Express boilerplate with typescript and essential features",
+  "name": "express-module-generator",
+  "version": "1.1.0",
+  "description": "Generate Express TypeScript modules with templates",
   "main": "index.js",
   "bin": {
-    "create-express-kit": "bin/index.js"
+    "generate-module": "bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,8 +12,9 @@
   "keywords": [
     "express",
     "typescript",
-    "scaffold",
-    "boilerplate"
+    "generator",
+    "module",
+    "scaffold"
   ],
   "author": "Faisal Akbar",
   "license": "MIT",
@@ -24,12 +25,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/faisal-akbar/create-express-kit.git"
+    "url": "git+https://github.com/faisal-akbar/express-module-generator.git"
   },
-  "homepage": "https://github.com/faisal-akbar/create-express-kit#readme",
+  "homepage": "https://github.com/faisal-akbar/express-module-generator#readme",
   "files": [
     "bin/",
-    "scripts/",
+    "script/",
     "README.md"
   ]
 }
