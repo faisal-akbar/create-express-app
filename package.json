@@ -4,7 +4,7 @@
   "description": "Create Express boilerplate with typescript and essential features",
   "main": "index.js",
   "bin": {
-    "create-express-kit": "bin/index.js"
+    "create-express-kit": "./bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
