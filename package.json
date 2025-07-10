@@ -1,7 +1,7 @@
 {
-  "name": "express-module-generator",
+  "name": "create-express-kit",
   "version": "1.1.0",
-  "description": "Generate Express TypeScript modules with templates",
+  "description": "Generate Express boilerplate with TypeScript support",
   "main": "index.js",
   "bin": {
     "generate-module": "bin/index.js"
@@ -25,9 +25,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/faisal-akbar/express-module-generator.git"
+    "url": "git+https://github.com/faisal-akbar/create-express-app.git"
   },
-  "homepage": "https://github.com/faisal-akbar/express-module-generator#readme",
+  "homepage": "https://github.com/faisal-akbar/create-express-app#readme",
   "files": [
     "bin/",
     "script/",
