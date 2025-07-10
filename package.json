@@ -1,10 +1,10 @@
 {
-  "name": "@faisal/create-express-app",
+  "name": "create-express-kit",
   "version": "1.0.0",
-  "description": "Generate Express TypeScript modules with templates",
+  "description": "Create Express boilerplate with typescript and essential features",
   "main": "index.js",
   "bin": {
-    "create-express-app": "bin/index.js"
+    "create-express-kit": "bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -24,9 +24,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/faisal-akbar/create-express-app.git"
+    "url": "https://github.com/faisal-akbar/create-express-kit.git"
   },
-  "homepage": "https://github.com/faisal-akbar/create-express-app#readme",
+  "homepage": "https://github.com/faisal-akbar/create-express-kit#readme",
   "files": [
     "bin/",
     "scripts/",
