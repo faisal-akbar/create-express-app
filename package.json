@@ -1,10 +1,10 @@
 {
-  "name": "express-module-generator",
-  "version": "1.1.0",
+  "name": "@faisal/create-express-app",
+  "version": "1.0.0",
   "description": "Generate Express TypeScript modules with templates",
   "main": "index.js",
   "bin": {
-    "generate-module": "bin/index.js"
+    "create-express-app": "bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,18 +18,18 @@
   "author": "Faisal Akbar",
   "license": "MIT",
   "type": "module",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/faisal-akbar/express-module-generator.git"
-  },
-  "homepage": "https://github.com/faisal-akbar/express-module-generator#readme",
-  "files": [
-    "bin/",
-    "script/",
-    "README.md"
-  ],
   "dependencies": {
     "consola": "^3.4.2",
     "inquirer": "^12.7.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/faisal-akbar/create-express-app.git"
+  },
+  "homepage": "https://github.com/faisal-akbar/create-express-app#readme",
+  "files": [
+    "bin/",
+    "scripts/",
+    "README.md"
+  ]
 }
