@@ -1,7 +1,14 @@
-express
+
+bcryptjs
+cookie-parser
 cors
 dotenv
-zod
+express
+express-session
 http-status-codes
 jsonwebtoken
 mongoose
+passport
+passport-google-oauth20
+passport-local
+zod
