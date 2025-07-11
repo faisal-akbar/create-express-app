@@ -157,6 +157,8 @@ copyTemplate("tsconfig.json");
 copyTemplate("eslint.config.mjs");
 copyTemplate(".env");
 copyTemplate(".env.example");
+copyTemplate("README.md");
+copyTemplate(".gitignore");
 consola.success("📄 Config files copied");
 
 consola.start("🛠️ Updating package.json scripts...");

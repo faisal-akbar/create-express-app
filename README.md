@@ -16,53 +16,55 @@ npm install
 npm run dev
 ```
 
-## Project Structure
+## Features
+- **TypeScript**: Full support for TypeScript
+- **Mongoose**: Optional integration with Mongoose for MongoDB
+- **Prisma**: Optional integration with Prisma for database management
+- **ESLint**: Pre-configured ESLint for code quality
+- **Prettier**: Pre-configured Prettier for code formatting
+- **Modular Structure**: Organized directory structure for easy maintenance
+- **Error Handling**: Built-in error handling middleware
+- **Environment Configuration**: Easy management of environment variables
+- **Global Error Handler**: Centralized error handling for the application
+- **Not Found Middleware**: Handles 404 errors gracefully
+- **Catch Async**: Utility for handling asynchronous requests
+- **JWT Utility**: Helper functions for JSON Web Tokens
+- **Response Utility**: Standardized response format for API responses
+- **Validation Middleware**: Middleware for validating incoming requests
+- Installation of dependencies based on the selected template (Mongoose or Prisma)
+- Scripts for development, linting, and building the application
+
+
+## Sample Project Structure
+```
 .
 ├── README.md
-├── bin
-│   └── index.js
+├── eslint.config.mjs
 ├── package-lock.json
 ├── package.json
-└── script
-    ├── create-express-app.js
-    ├── dependencies
-    │   ├── mongoose
-    │   │   ├── dependencies.txt
-    │   │   └── devDependencies.txt
-    │   └── prisma
-    │       ├── dependencies.txt
-    │       └── devDependencies.txt
-    └── templates
-        ├── mongoose
-        │   ├── eslint.config.mjs
-        │   ├── src
-        │   │   ├── app
-        │   │   │   ├── config
-        │   │   │   │   └── env.ts
-        │   │   │   ├── errorHelpers
-        │   │   │   │   └── AppError.ts
-        │   │   │   ├── interfaces
-        │   │   │   │   └── index.d.ts
-        │   │   │   ├── middlewares
-        │   │   │   │   ├── globalErrorHandler.ts
-        │   │   │   │   ├── notFound.ts
-        │   │   │   │   └── validateRequest.ts
-        │   │   │   ├── modules
-        │   │   │   ├── routes
-        │   │   │   │   └── index.ts
-        │   │   │   └── utils
-        │   │   │       ├── catchAsync.ts
-        │   │   │       ├── jwt.ts
-        │   │   │       └── sendResponse.ts
-        │   │   ├── app.ts
-        │   │   └── server.ts
-        │   └── tsconfig.json
-        └── prisma
-            ├── eslint.config.mjs
-            ├── src
-            │   ├── app
-            │   │   ├── config
-            │   │   └── modules
-            │   ├── app.ts
-            │   └── server.ts
-            └── tsconfig.json
+├── .env
+├── .env.example
+├── .gitignore
+├── src
+│   ├── app
+│   │   ├── config
+│   │   │   └── env.ts
+│   │   ├── errorHelpers
+│   │   │   └── AppError.ts
+│   │   ├── interfaces
+│   │   │   └── index.d.ts
+│   │   ├── middlewares
+│   │   │   ├── globalErrorHandler.ts
+│   │   │   ├── notFound.ts
+│   │   │   └── validateRequest.ts
+│   │   ├── modules
+│   │   ├── routes
+│   │   │   └── index.ts
+│   │   └── utils
+│   │       ├── catchAsync.ts
+│   │       ├── jwt.ts
+│   │       └── sendResponse.ts
+│   ├── app.ts
+│   └── server.ts
+└── tsconfig.json
+```
