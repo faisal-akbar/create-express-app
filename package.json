@@ -4,7 +4,7 @@
   "description": "Generate Express boilerplate with TypeScript support",
   "main": "index.js",
   "bin": {
-    "generate-module": "bin/index.js"
+    "create-express-kit": "bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
