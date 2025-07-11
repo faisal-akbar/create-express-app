@@ -155,10 +155,10 @@ if (fs.existsSync(path.join(templatePath, "src"))) {
 consola.start("📄 Copying config files...");
 copyTemplate("tsconfig.json");
 copyTemplate("eslint.config.mjs");
-copyTemplate(".env");
+// copyTemplate(".env");
 copyTemplate(".env.example");
 copyTemplate("README.md");
-copyTemplate(".gitignore");
+// copyTemplate(".gitignore");
 consola.success("📄 Config files copied");
 
 consola.start("🛠️ Updating package.json scripts...");

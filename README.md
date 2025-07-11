@@ -42,9 +42,7 @@ npm run dev
 ├── eslint.config.mjs
 ├── package-lock.json
 ├── package.json
-├── .env
 ├── .env.example
-├── .gitignore
 ├── src
 │   ├── app
 │   │   ├── config
