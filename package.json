@@ -1,7 +1,7 @@
 {
   "name": "create-express-kit",
   "version": "1.1.0",
-  "description": "Generate Express boilerplate with TypeScript support",
+  "description": "Scaffold Express app with TypeScript support",
   "main": "index.js",
   "bin": {
     "create-express-kit": "bin/index.js"
