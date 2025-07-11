@@ -1,10 +1,10 @@
 {
-  "name": "create-express-kit",
+  "name": "make-express-app",
   "version": "1.1.0",
-  "description": "Generate Express boilerplate with TypeScript support",
+  "description": "scaffold Express app with TypeScript support",
   "main": "index.js",
   "bin": {
-    "create-express-kit": "bin/index.js"
+    "make-express-app": "bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

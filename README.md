@@ -6,8 +6,8 @@ Generate Express TypeScript modules with boilerplate templates.
 ## How to run
 
 ```bash
-npx express-app-kit
-OR
+npx make-express-app
+# OR
 npx github:faisal-akbar/create-express-app
 
 Enter your app name: sample-express-app
