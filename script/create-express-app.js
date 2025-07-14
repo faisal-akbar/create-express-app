@@ -183,4 +183,4 @@ consola.log("");
 consola.log("🚀 Your app will be available at: http://localhost:5000");
 consola.log("");
 consola.info("You can also use the Module Generator to create modules:");
-consola.log(`  npx github:faisal-akbar/express-module-generator`);
+consola.log(`  npx npx make-express-module`);
