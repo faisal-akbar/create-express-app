@@ -1,6 +1,6 @@
 {
   "name": "create-express-kit",
-  "version": "1.2.0",
+  "version": "1.2.2",
   "description": "Scaffold Express app with TypeScript support",
   "main": "index.js",
   "bin": {
